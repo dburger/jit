@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <title>Jit Demo</title>
+        <link type="text/css" rel="stylesheet" href="stylesheets/example.css" />
+        <script type="text/javascript" src="javascripts/prototype.js"></script>
+        <script type="text/javascript" src="javascripts/jit.js"></script>
+        <script type="text/javascript" src="javascripts/example.js"></script>
+        <script type="text/javascript">
+            $(document).observe("dom:loaded", function(evt) {init();});
+        </script>
+    </head>
+    <body>
+        <div id="infovis"></div>
+        <select id="switch">
+            <option value="left">Left</option>
+            <option value="top">Top</option>
+            <option value="right">Right</option>
+            <option value="bottom">Bottom</option>
+        </select>
+    </body>
+</html>

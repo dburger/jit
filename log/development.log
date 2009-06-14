@@ -1,0 +1,1379 @@
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2009-06-06 21:19:00) [GET]
+  Parameters: {"id"=>"1"}
+
+
+SyntaxError (/home/dburger/src/jit/app/controllers/dirs_controller.rb:7: odd number list for Hash
+            id: "root",
+               ^
+/home/dburger/src/jit/app/controllers/dirs_controller.rb:7: syntax error, unexpected ':', expecting '}'
+            id: "root",
+               ^
+/home/dburger/src/jit/app/controllers/dirs_controller.rb:7: syntax error, unexpected ',', expecting '}'
+/home/dburger/src/jit/app/controllers/dirs_controller.rb:8: syntax error, unexpected ',', expecting '}'
+/home/dburger/src/jit/app/controllers/dirs_controller.rb:11: odd number list for Hash
+                id: "child",
+                   ^
+/home/dburger/src/jit/app/controllers/dirs_controller.rb:11: syntax error, unexpected ':', expecting '}'
+                id: "child",
+                   ^
+/home/dburger/src/jit/app/controllers/dirs_controller.rb:11: syntax error, unexpected ',', expecting '}'
+/home/dburger/src/jit/app/controllers/dirs_controller.rb:12: syntax error, unexpected ',', expecting '}'
+/home/dburger/src/jit/app/controllers/dirs_controller.rb:15: syntax error, unexpected ']', expecting kEND):
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:382:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:382:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:381:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:256:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:427:in `load_missing_constant'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:77:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:89:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/inflector.rb:352:in `constantize'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/inflector.rb:351:in `each'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/inflector.rb:351:in `constantize'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/string/inflections.rb:162:in `constantize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:388:in `recognize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (103.6ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (20.3ms)
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing DirsController#show (for 127.0.0.1 at 2009-06-06 21:20:19) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/1]
+
+
+Processing DirsController#show (for 127.0.0.1 at 2009-06-06 21:20:45) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/1]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 21:21:08) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/1.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 21:23:56) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/1.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 21:24:40) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/1.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 21:24:54) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/1.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 21:25:24) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/1.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 21:26:19) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/1.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 21:26:23) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/1.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 21:26:29) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/1.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 21:27:16) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/dirs/1.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 21:27:22) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/dirs/1.json]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-06-06 21:46:14) [GET]
+
+
+ActionController::RoutingError (No route matches "/dirs/1.json" with {:method=>:get}):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 21:47:13) [GET]
+  Parameters: {"path"=>"1"}
+Completed in 78ms (View: 35, DB: 0) | 200 OK [http://localhost/dirs/1.json]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-06-06 21:48:33) [GET]
+
+
+ActionController::RoutingError (No route matches "/dirs/.json" with {:method=>:get}):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 21:49:46) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 21:50:05) [GET]
+  Parameters: {"path"=>"child1"}
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/dirs/child1.json]
+
+
+Processing ApplicationController#show to json (for 127.0.0.1 at 2009-06-06 21:52:26) [GET]
+  Parameters: {"path"=>"root"}
+
+
+SyntaxError (/home/dburger/src/jit/app/controllers/dirs_controller.rb:8: syntax error, unexpected kEND, expecting '}'
+/home/dburger/src/jit/app/controllers/dirs_controller.rb:32: syntax error, unexpected kEND, expecting '}'):
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:382:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:382:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:381:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:256:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:427:in `load_missing_constant'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:77:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:89:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/inflector.rb:352:in `constantize'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/inflector.rb:351:in `each'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/inflector.rb:351:in `constantize'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/string/inflections.rb:162:in `constantize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:388:in `recognize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (78.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (24.4ms)
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 21:52:54) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 21:53:31) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 21:54:33) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 35ms (View: 2, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 21:55:12) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 21:55:48) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 21:56:33) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:00:24) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:05:13) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:05:21) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:06:25) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 15ms (View: 8, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:06:35) [GET]
+  Parameters: {"path"=>"vendor"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/vendor.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:06:42) [GET]
+  Parameters: {"path"=>"script"}
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/dirs/script.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:06:48) [GET]
+  Parameters: {"path"=>"public"}
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/dirs/public.json]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-06-06 22:06:57) [GET]
+
+
+ActionController::RoutingError (No route matches "/dirs/public/robots.txt.json" with {:method=>:get}):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:07:12) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:07:22) [GET]
+  Parameters: {"path"=>"app"}
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/dirs/app.json]
+
+
+Processing DirsController#app to json (for 127.0.0.1 at 2009-06-06 22:07:28) [GET]
+  Parameters: {"id"=>"controllers"}
+
+
+ActionController::UnknownAction (No action responded to app. Actions: show):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:09:35) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:09:42) [GET]
+  Parameters: {"path"=>"app"}
+Completed in 10ms (View: 2, DB: 0) | 200 OK [http://localhost/dirs/app.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:09:45) [GET]
+  Parameters: {"path"=>"app/views"}
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/dirs/app/views.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:09:50) [GET]
+  Parameters: {"path"=>"app/views/dirs"}
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/app/views/dirs.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:09:55) [GET]
+  Parameters: {"path"=>"app/views/layouts"}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/dirs/app/views/layouts.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:09:58) [GET]
+  Parameters: {"path"=>"app/controllers"}
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/dirs/app/controllers.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:10:01) [GET]
+  Parameters: {"path"=>"app/models"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/app/models.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:10:09) [GET]
+  Parameters: {"path"=>"app/helpers"}
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/app/helpers.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:10:15) [GET]
+  Parameters: {"path"=>"doc"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/doc.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:10:31) [GET]
+  Parameters: {"path"=>"app/controllers/dirs_controller.rb~"}
+Completed in 12ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/app/controllers/dirs_controller.rb~.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:10:31) [GET]
+  Parameters: {"path"=>"app/controllers/dirs_controller.rb"}
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/app/controllers/dirs_controller.rb.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:10:31) [GET]
+  Parameters: {"path"=>"app/controllers/application.rb"}
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/app/controllers/application.rb.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:10:34) [GET]
+  Parameters: {"path"=>"app/controllers/dirs_controller.rb"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/app/controllers/dirs_controller.rb.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:10:44) [GET]
+  Parameters: {"path"=>"db"}
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/db.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:10:44) [GET]
+  Parameters: {"path"=>"app/models"}
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/app/models.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:10:44) [GET]
+  Parameters: {"path"=>"lib"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/lib.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:10:44) [GET]
+  Parameters: {"path"=>"log"}
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/dirs/log.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:10:44) [GET]
+  Parameters: {"path"=>"tmp"}
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/dirs/tmp.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:10:44) [GET]
+  Parameters: {"path"=>"test"}
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/dirs/test.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:10:44) [GET]
+  Parameters: {"path"=>"Rakefile"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/Rakefile.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:10:44) [GET]
+  Parameters: {"path"=>"README"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/README.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:10:44) [GET]
+  Parameters: {"path"=>"config"}
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/dirs/config.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:10:44) [GET]
+  Parameters: {"path"=>"public"}
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/dirs/public.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:10:44) [GET]
+  Parameters: {"path"=>"script"}
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/dirs/script.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:10:45) [GET]
+  Parameters: {"path"=>"vendor"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/vendor.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:10:53) [GET]
+  Parameters: {"path"=>"vendor/plugins"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/vendor/plugins.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:11:01) [GET]
+  Parameters: {"path"=>"script/plugin"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/plugin.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:11:09) [GET]
+  Parameters: {"path"=>"script/server"}
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/server.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:11:15) [GET]
+  Parameters: {"path"=>"script/runner"}
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/runner.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:11:18) [GET]
+  Parameters: {"path"=>"script/process"}
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/dirs/script/process.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:11:22) [GET]
+  Parameters: {"path"=>"script/process/reaper"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/process/reaper.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:13:55) [GET]
+  Parameters: {"path"=>"script/process/reaper"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/process/reaper.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:00) [GET]
+  Parameters: {"path"=>"script/console"}
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/console.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:00) [GET]
+  Parameters: {"path"=>"script/destroy"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/destroy.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:00) [GET]
+  Parameters: {"path"=>"script/about"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/about.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:00) [GET]
+  Parameters: {"path"=>"script/generate"}
+Completed in 11ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/generate.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:00) [GET]
+  Parameters: {"path"=>"script/dbconsole"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/dbconsole.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:00) [GET]
+  Parameters: {"path"=>"script/plugin"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/plugin.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:00) [GET]
+  Parameters: {"path"=>"script/server"}
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/server.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:00) [GET]
+  Parameters: {"path"=>"script/runner"}
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/runner.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:00) [GET]
+  Parameters: {"path"=>"script/process/spawner"}
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/process/spawner.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:00) [GET]
+  Parameters: {"path"=>"script/process/reaper"}
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/process/reaper.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:00) [GET]
+  Parameters: {"path"=>"script/process/inspector"}
+Completed in 12ms (View: 2, DB: 0) | 200 OK [http://localhost/dirs/script/process/inspector.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:01) [GET]
+  Parameters: {"path"=>"script/performance"}
+Completed in 10ms (View: 2, DB: 0) | 200 OK [http://localhost/dirs/script/performance.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:13) [GET]
+  Parameters: {"path"=>"script/console"}
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/console.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:13) [GET]
+  Parameters: {"path"=>"script/destroy"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/destroy.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:13) [GET]
+  Parameters: {"path"=>"script/about"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/about.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:14) [GET]
+  Parameters: {"path"=>"script/generate"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/generate.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:14) [GET]
+  Parameters: {"path"=>"script/dbconsole"}
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/dbconsole.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:14) [GET]
+  Parameters: {"path"=>"script/plugin"}
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/plugin.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:14) [GET]
+  Parameters: {"path"=>"script/server"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/server.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:14) [GET]
+  Parameters: {"path"=>"script/runner"}
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/runner.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:19) [GET]
+  Parameters: {"path"=>"script/plugin"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/plugin.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:29) [GET]
+  Parameters: {"path"=>"script/console"}
+Completed in 11ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/console.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:29) [GET]
+  Parameters: {"path"=>"script/destroy"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/destroy.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:29) [GET]
+  Parameters: {"path"=>"script/about"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/about.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:30) [GET]
+  Parameters: {"path"=>"script/generate"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/generate.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:30) [GET]
+  Parameters: {"path"=>"script/dbconsole"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/dbconsole.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:30) [GET]
+  Parameters: {"path"=>"script/plugin"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/plugin.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:30) [GET]
+  Parameters: {"path"=>"script/server"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/server.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:30) [GET]
+  Parameters: {"path"=>"script/runner"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/script/runner.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:14:55) [GET]
+  Parameters: {"path"=>"Rakefile"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/Rakefile.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:15:36) [GET]
+  Parameters: {"path"=>"app/controllers/dirs_controller.rb~"}
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/app/controllers/dirs_controller.rb~.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:15:36) [GET]
+  Parameters: {"path"=>"app/controllers/dirs_controller.rb"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/app/controllers/dirs_controller.rb.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:15:36) [GET]
+  Parameters: {"path"=>"app/controllers/application.rb"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/app/controllers/application.rb.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:15:42) [GET]
+  Parameters: {"path"=>"app/controllers/dirs_controller.rb~"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/app/controllers/dirs_controller.rb~.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:15:48) [GET]
+  Parameters: {"path"=>"app/controllers/dirs_controller.rb~"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/app/controllers/dirs_controller.rb~.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:15:56) [GET]
+  Parameters: {"path"=>"app/controllers/dirs_controller.rb"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/app/controllers/dirs_controller.rb.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-06 22:16:01) [GET]
+  Parameters: {"path"=>"app/controllers/application.rb"}
+Completed in 5ms (View: 0, DB: 0) | 200 OK [http://localhost/dirs/app/controllers/application.rb.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:23:02) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:23:10) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:23:50) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:24:10) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:26:09) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:26:15) [GET]
+  Parameters: {"path"=>"test"}
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/dirs/test.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:26:18) [GET]
+  Parameters: {"path"=>"test/fixtures"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/test/fixtures.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:26:24) [GET]
+  Parameters: {"path"=>"test/integration"}
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/test/integration.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:26:34) [GET]
+  Parameters: {"path"=>"test/test_helper.rb"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/test/test_helper.rb.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:26:37) [GET]
+  Parameters: {"path"=>"test/performance"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/test/performance.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:30:17) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:30:23) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:31:25) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:31:35) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:31:39) [GET]
+  Parameters: {"path"=>"tmp"}
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/dirs/tmp.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:31:45) [GET]
+  Parameters: {"path"=>"tmp/cache"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/tmp/cache.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:31:49) [GET]
+  Parameters: {"path"=>"tmp/pids"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/tmp/pids.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:31:53) [GET]
+  Parameters: {"path"=>"app"}
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/dirs/app.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:31:58) [GET]
+  Parameters: {"path"=>"app/controllers"}
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/app/controllers.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:32:02) [GET]
+  Parameters: {"path"=>"app/controllers/dirs_controller.rb"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/app/controllers/dirs_controller.rb.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:32:06) [GET]
+  Parameters: {"path"=>"app/controllers/application.rb"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/app/controllers/application.rb.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:32:16) [GET]
+  Parameters: {"path"=>"lib"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/lib.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:32:27) [GET]
+  Parameters: {"path"=>"log"}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/log.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:32:35) [GET]
+  Parameters: {"path"=>"test"}
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/dirs/test.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:32:51) [GET]
+  Parameters: {"path"=>"Rakefile"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/Rakefile.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:32:55) [GET]
+  Parameters: {"path"=>"README"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/README.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:32:58) [GET]
+  Parameters: {"path"=>"config"}
+Completed in 12ms (View: 5, DB: 0) | 200 OK [http://localhost/dirs/config.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:33:03) [GET]
+  Parameters: {"path"=>"config/locales"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/config/locales.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:33:07) [GET]
+  Parameters: {"path"=>"config/locales/en.yml"}
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/config/locales/en.yml.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:43:47) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:43:54) [GET]
+  Parameters: {"path"=>"db"}
+Completed in 10ms (View: 2, DB: 0) | 200 OK [http://localhost/dirs/db.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:43:55) [GET]
+  Parameters: {"path"=>"app"}
+Completed in 10ms (View: 2, DB: 0) | 200 OK [http://localhost/dirs/app.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:43:55) [GET]
+  Parameters: {"path"=>"doc"}
+Completed in 11ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/doc.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:43:55) [GET]
+  Parameters: {"path"=>"lib"}
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/lib.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:43:55) [GET]
+  Parameters: {"path"=>"log"}
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/dirs/log.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:43:55) [GET]
+  Parameters: {"path"=>"tmp"}
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/dirs/tmp.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:43:55) [GET]
+  Parameters: {"path"=>"test"}
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/dirs/test.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:43:55) [GET]
+  Parameters: {"path"=>"Rakefile"}
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/Rakefile.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:43:55) [GET]
+  Parameters: {"path"=>"README"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/README.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:43:55) [GET]
+  Parameters: {"path"=>"config"}
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://localhost/dirs/config.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:43:55) [GET]
+  Parameters: {"path"=>"public"}
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/dirs/public.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:43:56) [GET]
+  Parameters: {"path"=>"script"}
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/dirs/script.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:43:56) [GET]
+  Parameters: {"path"=>"vendor"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/vendor.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:44:08) [GET]
+  Parameters: {"path"=>"Rakefile"}
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/Rakefile.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 14:44:12) [GET]
+  Parameters: {"path"=>"README"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/README.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:00:27) [GET]
+  Parameters: {"path"=>"README"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/README.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:00:36) [GET]
+  Parameters: {"path"=>"Rakefile"}
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/Rakefile.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:17:26) [GET]
+  Parameters: {"path"=>"test/fixtures"}
+Completed in 71ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/test/fixtures.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:17:33) [GET]
+  Parameters: {"path"=>"test/integration"}
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/test/integration.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:18:19) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 28ms (View: 20, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:18:35) [GET]
+  Parameters: {"path"=>"doc"}
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/doc.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:18:41) [GET]
+  Parameters: {"path"=>"app"}
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/dirs/app.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:18:45) [GET]
+  Parameters: {"path"=>"db"}
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/db.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:18:49) [GET]
+  Parameters: {"path"=>"db/development.sqlite3"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/db/development.sqlite3.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:18:54) [GET]
+  Parameters: {"path"=>"db/development.sqlite3"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/db/development.sqlite3.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:19:09) [GET]
+  Parameters: {"path"=>"lib"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/lib.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:19:35) [GET]
+  Parameters: {"path"=>"log"}
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/dirs/log.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:21:33) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:21:39) [GET]
+  Parameters: {"path"=>"db"}
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/db.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:21:39) [GET]
+  Parameters: {"path"=>"app"}
+Completed in 12ms (View: 2, DB: 0) | 200 OK [http://localhost/dirs/app.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:21:39) [GET]
+  Parameters: {"path"=>"doc"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/doc.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:21:39) [GET]
+  Parameters: {"path"=>"lib"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/lib.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:21:39) [GET]
+  Parameters: {"path"=>"log"}
+Completed in 213ms (View: 3, DB: 0) | 200 OK [http://localhost/dirs/log.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:21:40) [GET]
+  Parameters: {"path"=>"tmp"}
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/dirs/tmp.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:21:40) [GET]
+  Parameters: {"path"=>"test"}
+Completed in 11ms (View: 3, DB: 0) | 200 OK [http://localhost/dirs/test.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:21:40) [GET]
+  Parameters: {"path"=>"Rakefile"}
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/Rakefile.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:21:40) [GET]
+  Parameters: {"path"=>"README"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/README.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:21:40) [GET]
+  Parameters: {"path"=>"config"}
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/dirs/config.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:21:40) [GET]
+  Parameters: {"path"=>"public"}
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/dirs/public.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:21:40) [GET]
+  Parameters: {"path"=>"script"}
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/dirs/script.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:21:40) [GET]
+  Parameters: {"path"=>"vendor"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/vendor.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:21:44) [GET]
+  Parameters: {"path"=>"Rakefile"}
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/Rakefile.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:21:49) [GET]
+  Parameters: {"path"=>"README"}
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/README.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:43:44) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:43:50) [GET]
+  Parameters: {"path"=>"db"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/db.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:43:56) [GET]
+  Parameters: {"path"=>"db/development.sqlite3"}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/dirs/db/development.sqlite3.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:44:01) [GET]
+  Parameters: {"path"=>"app"}
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/dirs/app.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:44:04) [GET]
+  Parameters: {"path"=>"doc"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/doc.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-07 15:44:10) [GET]
+  Parameters: {"path"=>"lib"}
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/lib.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-13 19:31:15) [GET]
+  Parameters: {"path"=>"root"}
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/dirs/root.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-13 19:31:20) [GET]
+  Parameters: {"path"=>"log"}
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/dirs/log.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-13 19:31:23) [GET]
+  Parameters: {"path"=>"log/test.log"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/log/test.log.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-13 19:31:28) [GET]
+  Parameters: {"path"=>"tmp"}
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/dirs/tmp.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-13 19:31:31) [GET]
+  Parameters: {"path"=>"Rakefile"}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/dirs/Rakefile.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-13 19:31:34) [GET]
+  Parameters: {"path"=>"config"}
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://localhost/dirs/config.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-13 19:31:38) [GET]
+  Parameters: {"path"=>"public"}
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/dirs/public.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-13 19:31:41) [GET]
+  Parameters: {"path"=>"script"}
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/dirs/script.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-13 19:31:44) [GET]
+  Parameters: {"path"=>"vendor"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/vendor.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-13 19:31:49) [GET]
+  Parameters: {"path"=>"vendor/plugins"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/vendor/plugins.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-13 19:32:03) [GET]
+  Parameters: {"path"=>"log/development.log"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/log/development.log.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-13 19:32:03) [GET]
+  Parameters: {"path"=>"log/test.log"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/log/test.log.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-13 19:32:03) [GET]
+  Parameters: {"path"=>"log/server.log"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/log/server.log.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-13 19:32:03) [GET]
+  Parameters: {"path"=>"log/production.log"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/log/production.log.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-13 19:32:08) [GET]
+  Parameters: {"path"=>"log/development.log"}
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/log/development.log.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-13 19:32:08) [GET]
+  Parameters: {"path"=>"log/test.log"}
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/log/test.log.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-13 19:32:09) [GET]
+  Parameters: {"path"=>"log/server.log"}
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/log/server.log.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-13 19:32:09) [GET]
+  Parameters: {"path"=>"log/production.log"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/log/production.log.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-13 19:32:13) [GET]
+  Parameters: {"path"=>"log/development.log"}
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/log/development.log.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-13 19:32:13) [GET]
+  Parameters: {"path"=>"log/test.log"}
+Completed in 11ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/log/test.log.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-13 19:32:14) [GET]
+  Parameters: {"path"=>"log/server.log"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/log/server.log.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-13 19:32:14) [GET]
+  Parameters: {"path"=>"log/production.log"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/log/production.log.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-13 19:32:18) [GET]
+  Parameters: {"path"=>"log/server.log"}
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/log/server.log.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-13 19:32:23) [GET]
+  Parameters: {"path"=>"lib"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/lib.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-13 19:32:27) [GET]
+  Parameters: {"path"=>"lib/tasks"}
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/lib/tasks.json]
+
+
+Processing DirsController#show to json (for 127.0.0.1 at 2009-06-13 19:32:33) [GET]
+  Parameters: {"path"=>"lib/tasks"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/dirs/lib/tasks.json]
